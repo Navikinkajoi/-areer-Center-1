@@ -243,6 +243,7 @@ const init = () => {
       itemSelectText: "",
     });
 
+    console.info(`POP${API_URL}${LOCATION_URL}`);
     console.log(`${API_URL}${LOCATION_URL}`);
     getData(
       `${API_URL}${LOCATION_URL}`,
@@ -258,7 +259,7 @@ const init = () => {
     );
 
     // cards
-
+    
     const urlWithParams = new URL(`${API_URL}${VACANCY_URL}`);
 
     urlWithParams.searchParams.set("limit", window.innerWidth < 768 ? 6 : 12);
