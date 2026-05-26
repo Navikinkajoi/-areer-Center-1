@@ -243,6 +243,7 @@ const init = () => {
       itemSelectText: "",
     });
 
+    console.log(`${API_URL}${LOCATION_URL}`);
     getData(
       `${API_URL}${LOCATION_URL}`,
       (locationData) => {
