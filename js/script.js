@@ -1,4 +1,4 @@
-const API_URL = "areer-center-1.vercel.app"; //https://Workspace-methed.vercel.app/
+const API_URL = "//https://Workspace-methed.vercel.app/"; //https://Workspace-methed.vercel.app/
 const LOCATION_URL = "api/locations";
 const VACANCY_URL = "api/vacancy";
 
